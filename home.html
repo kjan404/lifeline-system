@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>Lifeline System - Home</title> 
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .top-bar {
+      position: relative;
+      background-color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .logout-btn {
+      position: absolute;
+      top: 50px;
+      right: 30px;
+      padding: 10px 20px;
+      background-color: #d33f49;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .logout-btn:hover {
+      background-color: #a82f3a;
+    }
+
+    .welcome-section {
+      padding: 50px;
+      text-align: center;
+      background: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .welcome-section h1 {
+      font-size: 50px;
+      color: #d33f49;
+    }
+
+    .welcome-section p {
+      font-size: 40px;
+      color: #555;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px;
+      background-color: #e2dfdf;
+    }
+
+    .feature-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .feature-box {
+      width: 310px;
+      padding: 30px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .feature-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .feature-box h2 {
+      color: #d33f49;
+      font-size: 24px;
+    }
+
+    .feature-box p {
+      color: #000000;
+      font-size: 16px;
+    }
+  </style> 
+</head> 
+<body> 
+
+  <div class="top-bar">
+    <a href="login.html" class="logout-btn">Logout</a>
+  </div>
+
+  <div class="welcome-section">
+    <h1>Welcome to the Lifeline System</h1>
+    <p>Join us in our mission to save lives!</p>
+  </div> 
+
+  <div class="features"> 
+    <a href="risk.html" class="feature-link"> 
+      <div class="feature-box"> 
+        <h2>Risks &amp; Complications</h2> 
+        <p>Some people have allergic reactions to blood...</p> 
+      </div> 
+    </a> 
+    <a href="terms.html" class="feature-link"> 
+      <div class="feature-box"> 
+        <h2>Terms &amp; Conditions</h2> 
+        <p>Read our terms and conditions before using the system.</p> 
+      </div> 
+    </a> 
+    <a href="stock.html" class="feature-link"> 
+      <div class="feature-box"> 
+        <h2>Blood Stock</h2> 
+        <p>View current blood stock availability in our system.</p> 
+      </div> 
+    </a> 
+    <a href="donor.html" class="feature-link"> 
+      <div class="feature-box"> 
+        <h2>Become a Donor</h2> 
+        <p>Register easily and help those in need by donating blood.</p> 
+      </div> 
+    </a> 
+    <a href="request.html" class="feature-link"> 
+      <div class="feature-box"> 
+        <h2>Request Blood</h2> 
+        <p>Looking for blood? Find donors quickly through our system.</p> 
+      </div> 
+    </a> 
+    <a href="about.html" class="feature-link"> 
+      <div class="feature-box"> 
+        <h2>About System</h2> 
+        <p>About Lifeline Integrated Blood Donation & Request Platform.</p> 
+      </div> 
+    </a> 
+  </div> 
+
+</body>
+</html>
